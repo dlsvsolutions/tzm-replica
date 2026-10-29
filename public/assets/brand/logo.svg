@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 64" fill="none">
+  <!-- Isotype: Rounded Pin with Shopping Cart / Grocery Bag -->
+  <g transform="translate(6, 6)">
+    <rect width="52" height="52" rx="14" fill="#1F9741" />
+    <path d="M16 18H20.5L23.2 31.5C23.4 32.5 24.3 33.2 25.3 33.2H36.7C37.7 33.2 38.6 32.5 38.8 31.5L40.5 23H21.5" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="26" cy="39" r="2.8" fill="#FFFFFF" />
+    <circle cx="36" cy="39" r="2.8" fill="#FFFFFF" />
+    <!-- Fresh Leaf accent on top right of the badge -->
+    <path d="M35 13C35 13 41 12 43 17C43 21 39 23 39 23C39 23 39 17 35 13Z" fill="#78BD2E"/>
+  </g>
+  <!-- Wordmark: TuZonaMarket -->
+  <text x="68" y="37" font-family="Rubik, system-ui, -apple-system, sans-serif" font-size="26" font-weight="800" fill="#1F9741" letter-spacing="-0.5">
+    TuZona<tspan fill="#212529" font-weight="600">Market</tspan>
+  </text>
+  <text x="69" y="51" font-family="Rubik, system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#78BD2E" letter-spacing="1.2">
+    SUPERMERCADO ONLINE
+  </text>
+</svg>

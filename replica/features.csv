@@ -1,0 +1,21 @@
+feature,area,priority,original,clone,notes
+Top Navbar with Brand Logo and Zone Branch Selector,header,must,yes,yes,Branch selector for Carabobo and Lara zones
+Global Search Bar with Debounce and Live Filtering,search,must,yes,yes,Debounced autocomplete product filtering
+Horizontal Category Navigation Bar,navigation,must,yes,yes,Category bar with Víveres Harinas Lácteos Carnicería etc
+Hero Promotional Carousel Banner,home,must,yes,yes,Main promotional banner matching TZM visual aesthetics
+Slot 1 Personalized Recommendations Carousel (Home Feed),recommendations,must,no,yes,Decoupled IRecommendationService slot under promo banner
+Product Grid with Dual Currency Pricing (USD and Bs),catalog,must,yes,yes,Real-time currency exchange calculation ($ and Bs)
+ProductCard with Discount Badge and Quantity Stepper,catalog,must,yes,yes,Exact replica of .item-prod with stepper and add button
+Product Detail Modal (PDP) with Image and Meta,product detail,must,yes,yes,High-fidelity modal with specs and dual pricing
+Slot 2 Frequently Bought Together Bundle (PDP Modal),recommendations,must,no,yes,Co-occurrence bundle with discount and atomic add-to-cart
+Cart Slide-Over Drawer with Dynamic Subtotal,cart,must,yes,yes,Right slide-over with items count remove and totals
+Slot 3 Complete Your Order Complements (Cart Slide-Over),recommendations,must,no,yes,Vector similarity and complementary items in cart
+Recommendation Telemetry Debugger Panel,developer tools,must,no,yes,Live persona switcher explainability badge and latency slider
+Mobile Bottom Navigation TabBar (menu-mini),navigation,must,yes,yes,Ergonomic bottom tabs for mobile viewport (<768px)
+Skeleton Loading States for Zero Cumulative Layout Shift,performance,must,yes,yes,Skeleton cards matching product card dimensions
+Currency Switcher Toggle (USD / Bs),header,should,yes,yes,Toggle active currency or show dual price simultaneously
+Empty Cart and Empty Search State Screens,states,should,yes,yes,Matches TZM .carrito-vacio styling
+Responsive Breakpoints (Desktop 1440px and Mobile 375px),responsive,must,yes,yes,Flawless layout across screen sizes
+Multi-Persona Dynamic Feed (Groceries Snacks ColdStart),recommendations,must,no,yes,Demonstrates personalized vector and CF recommendations
+Synthetic Venezuelan Mass Consumption Catalog,catalog,must,yes,yes,Harina PAN Arroz Mary Cafe Fama de America etc
+Playwright E2E Automated Recommendation Test Suite,testing,must,no,yes,Tests for persona switching combo adding and cart reactivity
